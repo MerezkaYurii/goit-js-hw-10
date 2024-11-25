@@ -13,6 +13,27 @@
       <h1>Welcome to page 3</h1>
     </section>
 
+    <form class="form">
+      <label>
+        Delay (ms)
+        <input class="input-number" type="number" name="delay" required />
+      </label>
+    
+      <fieldset class="radio-input">
+        <legend>State</legend>
+        <label>
+          <input class="input-fulfilled" type="radio" name="state" value="fulfilled" required />
+          Fulfilled
+        </label>
+        <label>
+          <input class="input-rejected" type="radio" name="state" value="rejected" required />
+          Rejected
+        </label>
+      </fieldset>
+    
+      <button type="submit">Create notification</button>
+    </form>
+
 <script type="module" src="./js/2-snackbar.js"></script>
   </body>
 </html>
