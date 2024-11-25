@@ -6,14 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Snackbar</title>
     <script type="module" crossorigin src="/goit-js-hw-10/2-snackbar.js"></script>
-    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/styles-B4s-4mBC.js">
-    <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/styles-B9kkWxtF.css">
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/styles-Cjy-ZaaN.js">
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/vendor-BbbuE1sJ.js">
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/error-cvqnbH1C.js">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/styles-CvR7moqr.css">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/vendor-CZjNVMTf.css">
   </head>
   <body>
     <section>
       <a href="./index.html">Go to home</a>
       <h1>Welcome to page 3</h1>
     </section>
+
+    <form class="form">
+      <label>
+        Delay (ms)
+        <input class="input-number" type="number" name="delay" required />
+      </label>
+    
+      <fieldset class="radio-input">
+        <legend>State</legend>
+        <label>
+          <input class="input-fulfilled" type="radio" name="state" value="fulfilled" required />
+          Fulfilled
+        </label>
+        <label>
+          <input class="input-rejected" type="radio" name="state" value="rejected" required />
+          Rejected
+        </label>
+      </fieldset>
+    
+      <button type="submit">Create notification</button>
+    </form>
 
   </body>
 </html>
